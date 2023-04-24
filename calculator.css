@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    background: linear-gradient(132deg, rgb(253, 54, 133) 0.00%, rgb(254, 207, 215) 100.00%);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .6);
+    margin: auto;
+    border: 1px white;
+    margin-top: 150px;
+    
+}
+
+.box .buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.inputt input{
+    width: 280px;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin: 5px auto;
+    color: white;
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    
+    border-radius: 8px;
+    background: linear-gradient(214deg, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 100.00%);
+    
+}
+
+.btn{
+    width: 60px;
+    height: 60px;
+    color: aliceblue;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background: linear-gradient(132deg, rgb(113, 143, 175) 0.00%, rgb(69, 92, 114) 100.00%);
+    
+
+}
+
+
+
+
